@@ -1,0 +1,33 @@
+export interface IRequestData {
+	[key: string]: any;
+	merchant_code: string;
+	first_name: string;
+	last_name: string;
+	email: string;
+	phone: string;
+	order_id: string;
+	no_reference: string;
+	amount: string;
+	currency: string;
+	item_details: string;
+	datetime_request?: string;
+	payment_method: string;
+	time_limit: string;
+	notif_url: string;
+	thanks_url: string;
+	billing_address?: string;
+	billing_address_city?: string;
+	billing_address_province?: string;
+	billing_address_state?: string;
+	billing_address_postcode?: string;
+	shipping_receiver_name?: string;
+	shipping_address?: string;
+	shipping_address_city?: string;
+	shipping_address_province?: string;
+	shipping_address_state?: string;
+	shipping_address_postcode?: string;
+	shipping_address_phone?: string;
+	shipping_cost?: string;
+	seller_id?: string;
+	signature?: string;
+}
